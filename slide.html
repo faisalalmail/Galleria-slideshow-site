@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="slideshow.js" defer></script>
+  <title>Frontend Mentor | Galleria slideshow site</title>
+</head>
+<body>
+  <header>
+    <img src="assets/shared/logo.svg" class="logo" alt="logo">
+ <button class="uppercase tp5m bold text-grey-400">Stop slideshow</button>
+  </header>
+  <hr>
+<main class="slide-wrapper">
+
+  <div class="slide-1">
+
+
+  
+
+  <button class="view-btn tp7 uppercase"><img src="assets/shared/icon-view-image.svg"><p>View image</p></button>
+  <!-- Modal start -->
+
+  <!-- Modal end -->
+   <img src="assets/girl-with-pearl-earring/hero-small.jpg">
+   <div class="info-wrapper">
+    <div class="info">
+  <p class="tp2m bold">Girl with a Pearl Earring</p>
+  <p class="tp4 text-grey-400">Johannes Vermeer</p>
+    </div>
+  <img src="assets/girl-with-pearl-earring/artist.jpg" class="artist-img">
+   </div>
+</div>
+<div class="slide-2">
+  <p class="tp1m year text-grey-100 bold">1665</p>
+  <p class="description tp3m text-grey-400 bold">The painting is a tronie, the Dutch 17th-century description of a 'head' that was 
+  not meant to be a portrait. It depicts a European girl wearing an exotic dress, 
+  an oriental turban, and what was thought to be a very large pearl as an earring. 
+  In 2014, Dutch astrophysicist Vincent Icke raised doubts about the material of the 
+  earring and argued that it looks more like polished tin than pearl on the grounds 
+  of the specular reflection, the pear shape and the large size of the earring.</p>
+
+  <p class="tp5m bold text-grey-400 uppercase source-link">Go to source</p> <!-- URL: https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring -->
+</div>
+
+</main>
+  <div class="player" id="player">
+    <div class="progress" id="progress"></div>
+    <div>
+  <p class="tp3m bold" id="player-name">Girl with a Pearl Earring</p>
+  <p class="tp4m text-grey-400" id="player-artist-name">Johannes Vermeer</p>
+    </div>
+    <div class="player-buttons-container">
+      <img src="assets/shared/icon-back-button.svg" class="player-btn">
+      <img src="assets/shared/icon-next-button.svg" class="player-btn">
+    </div>
+  </div>
+</body>
+</html>
