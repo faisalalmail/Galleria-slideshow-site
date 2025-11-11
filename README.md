@@ -53,19 +53,29 @@ Users should be able to:
 
 ### What I learned
 
+I am both proud and happy that I did this challenge, it included more JS trickery than CSS which I enjoyed.
+**Masonry** style elements arrangement was tricky, I came up with my own way *I will check other people's solutions*.
+The project was focused on using only 2 HTML files while focusing on updating the DOM using javascript.
+
+Main learning outcomes:
+- Masonry arrangement
+- slideshow/player progress bar
+- modal pop-up img display
+- I guess I also unlocked a new way of font size responsiveness which I didnt really understand in previous projects.
 
 ### Continued development
 
+- my next step of learing is using JS libraries, I find it more reasonable now since I already used JS to update/populate content in this project.
+
+- I also need to take a side quest on the accessibility learning path as I think there is room for development in this regard.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Website - [Faisal Almail](https://serene-tiramisu-c891db.netlify.app/)
+- Frontend Mentor - [@FaisalAlmail](https://www.frontendmentor.io/profile/faisalalmail)
+- Github - [@FaisalAlmail](https://github.com/faisalalmail)
 
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
+I really would like to thank the folks at frontend mentor for providing awesome challenges with progressive difficulty level.
