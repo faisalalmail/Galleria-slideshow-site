@@ -6,12 +6,24 @@ const gap = 40
 let columnsOnPage = 0
 let paintingsData
 
+
+fetch("./data.json")
+.then(res => res.json())
+.then(data => {
+    paintingsData = data
+
 columnsCount(windowWidth)
+})
+
+
 window.addEventListener("resize", () =>{
     windowWidth = window.innerWidth
-   /*  console.log(windowWidth) */
     columnsCount(windowWidth)
 })
+
+
+
+
 
 function columnsCount(width){
 
@@ -19,13 +31,13 @@ function columnsCount(width){
 
         let columns = 0
         let usableSpace = gridWidth
-        while (usableSpace > 350){
+        while (usableSpace > 50){
 
             usableSpace = usableSpace - 350
             columns++
 /*             console.log(columns) */
     }
-
+      
             //Only call the method to populate if the number of columns
             //is not equal to what is already there, Starting at 0
             if (columnsOnPage != columns){
@@ -41,16 +53,12 @@ function populateColumns(num){
             
             gallery.innerHTML += `<div class="gal-col" id="${i}"></div>`
         }
-}
-let galCols = document.getElementsByClassName("gal-col");
-console.log(galCols.length)
-fetch("./data.json")
-.then(res => res.json())
-.then(data => {
-/*     console.log(data); */
-    paintingsData = data
 
-    currentColumn = 1
+
+            currentColumn = 1
+let galCols = document.getElementsByClassName("gal-col");
+
+    // for loop start--
     for (let painting of paintingsData){
         if (currentColumn > columnsOnPage){
             currentColumn = 1
@@ -68,30 +76,14 @@ fetch("./data.json")
   </div>
   </a>
         `
-        console.log(paintingsData.indexOf(painting))
+
     currentColumn++
     
     }
+    // for loop END--
+}
 
 
-
-
-
-
-
-/*     for (let painting of paintingsData){
-        gallery.innerHTML += `
-        <div class="thumbnail-painting-div">
-    <img src="${painting.images.thumbnail}" class="thumbnail-painting-img">
-    <div class="thumbnail-details">
-  <p class="tp2m bold text-white">${painting.name}</p>
-  <p class="text-white-75 tp5">${painting.artist.name}</p>
-  </div>
-  </div>
-        `
-    } */
-
-})
 
 
 
