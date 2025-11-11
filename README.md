@@ -28,18 +28,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![slide desktop view](screenshots/slide-desktop-view.png)
+![slide tablet view](screenshots/slide-tablet-view.png)
+![slide mobile view](screenshots/slide-mobile-view.png)
+![gallery desktop view](screenshots/gallery-desktop-view.png)
+![gallery tablet view](screenshots/gallery-tablet-view.png)
+![gallery mobile view](screenshots/gallery-mobile-view.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/faisalalmail/Galleria-slideshow-site](https://github.com/faisalalmail/Galleria-slideshow-site)
+- Live Site URL: [https://zesty-sundae-bddc37.netlify.app/](https://zesty-sundae-bddc37.netlify.app/)
 
 ## My process
 
